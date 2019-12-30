@@ -1,0 +1,47 @@
+
+
+GET http://localhost:8080/users
+
+<> 2019-12-17T113442.200.json
+<> 2019-12-17T111652.200.json
+<> 2019-12-17T110836.200.json
+<> 2019-12-17T110417.200.json
+
+###
+
+### 创建用户
+POST http://{{baseurl}}:8081/users
+Content-Type: application/json
+
+{"id":"123", "name":"wamg1", "age":18}
+
+<> 2019-12-17T105307.200.txt
+<> 2019-12-17T105157.200.txt
+<> 2019-12-17T104820.200.txt
+<> 2019-12-17T104514.200.txt
+
+### request with environment variables 获取所有用户
+GET http://{{baseurl}}:8080/users
+Accept: */*
+
+<> 2019-12-17T105307.200.json
+<> 2019-12-17T105157.200.json
+<> 2019-12-17T105132.200.json
+<> 2019-12-17T104523.200.json
+
+### 根据id获取用户
+GET {{allbaseurl}}/123
+
+
+### 更新用户
+PUT http://localhost:8080/users/123
+Content-Type: application/json
+
+{"id":"123", "name":"waangsw1", "age":20}
+
+
+### 删除用户
+DELETE  http://localhost:8080/users/123
+
+
+###

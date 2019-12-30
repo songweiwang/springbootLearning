@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "default-user",
+      "type": "com.sw.chapter21.entity.User",
+      "sourceType": "com.sw.chapter21.entity.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "default-user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.sw.chapter21.entity.User",
+      "defaultValue": 0
+    },
+    {
+      "name": "default-user.id",
+      "type": "java.lang.Long",
+      "sourceType": "com.sw.chapter21.entity.User"
+    },
+    {
+      "name": "default-user.name",
+      "type": "java.lang.String",
+      "sourceType": "com.sw.chapter21.entity.User"
+    }
+  ],
+  "hints": []
+}

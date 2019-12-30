@@ -1,0 +1,10 @@
+com\sw\jpademo\entity\CoffeeOrder$CoffeeOrderBuilder.class
+com\sw\jpademo\respository\CoffeeRespository.class
+com\sw\jpademo\entity\Coffee.class
+com\sw\jpademo\respository\BaseRespository.class
+com\sw\jpademo\entity\CoffeeOrder.class
+com\sw\jpademo\respository\CoffeeOrderRespository.class
+com\sw\jpademo\entity\OrderState.class
+com\sw\jpademo\JpademoApplication.class
+com\sw\jpademo\entity\BaseEntity.class
+com\sw\jpademo\entity\Coffee$CoffeeBuilder.class
